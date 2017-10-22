@@ -9,7 +9,7 @@ int main()
 {
 
 
-printf("ceci est une phrase test");
+printf("ceci est");
   return 0;
 }
 
