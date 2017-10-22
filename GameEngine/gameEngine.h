@@ -17,4 +17,6 @@
     int delayUpdate;
     TTF_Font * font;
   }GameEngine_Data;
+
+  GameEngine_Data GameEngine_Start(data_t * dataUser, char title[], int largeur, int hauteur, int FPS);
 #endif
