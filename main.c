@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include GameEngine/gameEngine.h   // inclus le moteur de Andy , qui n'est pas du tout un batard. :D
+#include "GameEngine/gameEngine.h"   // inclus le moteur de Andy , les guillemets sont ici pour faire la diff entre les bilbotek et les fichiers sa mere
 
 typedef struct{
   int var;
