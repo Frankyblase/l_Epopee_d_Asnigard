@@ -19,4 +19,7 @@
   }GameEngine_Data;
 
   GameEngine_Data GameEngine_Start(data_t * dataUser, char title[], int largeur, int hauteur, int FPS);
+
+  int GameEngine_Update(GameEngine_Data * GE_data);
+  int GameEngine_Stop(GameEngine_Data * GE_data);
 #endif

@@ -56,15 +56,16 @@ GameEngine_Data GameEngine_Start(data_t * dataUser, char title[], int largeur, i
 
 int GameEngine_Update(GameEngine_Data * GE_data)
 {
-
-
-  eventUpdate(GE_data->dataUser);
-  SDL_Delay(GE_data.delayUpdate);
+  while (1==1)
+  {
+    eventUpdate(GE_data->dataUser);
+    SDL_Delay(GE_data.delayUpdate);
+  }
 
   return GameEngine_success;
 }
 
-int GameEngine_Stop(GameEngine_Data GE_data)
+int GameEngine_Stop(GameEngine_Data * GE_data)
 {
   IMG_Quit();
   TTF_Quit();
